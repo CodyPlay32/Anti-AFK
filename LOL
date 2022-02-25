@@ -64,6 +64,7 @@ Activate.MouseButton1Down:connect(function()
 		vu:Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
 		wait(1)
 		vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+		wait(1)
 		print("[Anti-AFK] >> Activado!")
 	end)
 end)
@@ -74,7 +75,7 @@ UICorner.Parent = Activate
 OpenClose.Name = "Open/Close"
 OpenClose.Parent = Rice
 OpenClose.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
-OpenClose.Position = UDim2.new(0.382, 0,0.015, 0)
+OpenClose.Position = UDim2.new(0.397, 0,-0, 0)
 OpenClose.Size = UDim2.new(0, 247, 0, 35)
 OpenClose.Font = Enum.Font.GothamBold
 OpenClose.Text = "Abrir/Cerrar"
