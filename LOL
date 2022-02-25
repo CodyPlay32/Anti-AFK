@@ -6,7 +6,7 @@ local Activate = Instance.new("TextButton")
 local UICorner = Instance.new("UICorner")
 local OpenClose = Instance.new("TextButton")
 local UICorner_2 = Instance.new("UICorner")
-local Rice = Instance.new("UICorner")
+local Main = Instance.new("UICorner")
 
 Rice.Name = "Rice"
 Rice.Parent = game.CoreGui
