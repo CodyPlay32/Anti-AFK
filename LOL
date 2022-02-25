@@ -65,7 +65,7 @@ Activate.MouseButton1Down:connect(function()
 		wait(1)
 		vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
 		wait(1)
-		print("[Anti-AFK] >> Activado!")
+		vu:print("[Anti-AFK] >> Activado!")
 	end)
 end)
 
