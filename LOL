@@ -64,8 +64,6 @@ Activate.MouseButton1Down:connect(function()
 		vu:Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
 		wait(1)
 		vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
-		wait(1)
-		Activate.TextColor3 = Color3.fromRGB(255, 103, 105)
 	end)
 end)
 
